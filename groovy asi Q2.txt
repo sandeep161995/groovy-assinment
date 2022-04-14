@@ -1,0 +1,46 @@
+class sand {
+	
+	//String x="Hello world"
+	
+	static void main(String[] args) {
+		def x="Hello world"
+		def y="sandeep"
+		def z="sindhu"
+		def a="lakshmi"
+		def b="Hello World how are you ?"
+		println("The number of characters"+x.length())
+		println("HELLO".concat(y))
+	    if((z.reverse()).equals(z))
+			println("alindromme")
+		else
+			println("not alindrome")
+	
+			
+			if((a.reverse()).equalsIgnoreCase(z))
+				println("alindromme")
+			else
+				println("not alindrome")
+				
+				
+	   def l=[]
+	   def c=0
+	   def index
+	   l.add(b.split(" "))
+	   for(e in l)
+	   {
+		   println(e)
+		   if(e.equals("World"))
+			 index=c
+		   c=c+1
+	   }
+	   println("count of words in string"+c)
+	
+	   println(b.subString(c))
+	   
+	   
+	   def k=l[l.length()-1]
+	   
+	   println(k.reverse())
+
+}
+}

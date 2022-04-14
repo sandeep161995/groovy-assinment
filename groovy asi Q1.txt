@@ -1,0 +1,25 @@
+class abc {
+	
+	boolean isrime(int n)
+	{
+		int c=0
+	
+	for(i=1;i<=n;i++)
+	{
+		if (n%i==0)
+			c++
+		if (c===2)
+			return True
+		else
+			return False
+	}
+	
+	}
+	public void main(String[] args)
+	{
+		abc obj=new a1()
+		int n=System.console().readLine().toInteger()
+		def result=obj.isrime(n)
+		
+	}
+}

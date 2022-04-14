@@ -1,0 +1,54 @@
+class abc2 {
+	
+	public void main(String[] args)
+	{
+		def l=[]
+		println("enter how many strings")
+		int n=System.console().readLine().toInteger() 
+		println("enter them")
+		for(i in 1..n)
+		{
+			l[i]=System.console().readLine().toInteger()
+		
+		}
+		l.sort()
+		
+		for(e in l)
+		{
+		println(e)
+		}
+		
+		
+		def min=l[0]
+		for(i in 1..n)
+		{
+		 for(j in 2..n)
+		 {
+		   if(l[j].length()<l[i].length())
+		   {
+			   def t=l[i]
+			   l[i]=l[j]
+			   l[j]=t
+		   }
+		 } 
+			
+		}
+		
+		for(e in l)
+		{
+		println("enter them")
+		}
+		
+		l.reverse()
+		
+		for(e in l)
+		{
+		println("enter them")
+		}
+		
+		
+		
+	}
+	
+	
+}

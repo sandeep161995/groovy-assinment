@@ -1,0 +1,27 @@
+class abc3 {
+	
+	public void main(String[] args)
+	{
+		def l=[]
+		println("enter how many strings")
+		int n=System.console().readLine().toInteger()
+		println("enter them")
+		for(i in 1..n)
+		{
+			l[i]=System.console().readLine().toInteger()
+		
+		}
+		def sum=0,sum1=0
+		for(i in 1..n)
+		{
+			sum=sum+l[i]
+			sum1=sum1+l[i]*2
+			
+			
+		}
+		def avg=sum1/n
+		println("sum of elemnets of list"+sum)
+		println("sum of elements doubled"+sum1)
+		println("average for doubled elemnts"+avg)
+		}
+}
